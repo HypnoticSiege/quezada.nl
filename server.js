@@ -1,6 +1,7 @@
 
-const express = require('express');
-const app = express();
+const express = require('express')
+const path = require("path");
+const app = express()
 
 // #############################################################################
 // This configures static hosting for files in /public that have the extensions
@@ -18,5 +19,5 @@ app.use(express.static('dist', options))
 const port = process.env.PORT || 3000
 
 app.listen(port, () => {
-    console.log(`quezada.nl listening at http://localhost:${port}`)
-});
+  console.log(`React app listening at http://localhost:${port}`)
+})
