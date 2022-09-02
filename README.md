@@ -22,3 +22,7 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+##### CREDIT
+- Theme Button/Selection (https://dev.to/tqbit/create-your-own-dark-mode-toggle-component-with-vue-js-1284)
