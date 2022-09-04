@@ -118,10 +118,14 @@ export default {
 <style scoped>
   h1, h2, h3 {
     margin-bottom: 0rem;
+    font-size: 25px;
+    font-weight: 800;
   }
+
   p, ul {
     margin-top: 0rem;
   }
+
   hr {
     width: 10%;
   }
@@ -138,12 +142,12 @@ export default {
   }
 
   .card {
-    flex: 0 1 24%;
+    flex: 0 1 25.75%;
     margin: 10px;
     border-radius: .5rem;
     background-color: var(--background-color-secondary);
     box-shadow: 5px 5px 5px var(--accent-color);
-    min-height: 30vh;
+    min-height: 13.5rem;
   }
 
   .card-text {
@@ -164,7 +168,7 @@ export default {
     border-radius: .25rem;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     .card-group {
         width: 100vw;
         margin-left: 0vw;
@@ -175,7 +179,7 @@ export default {
       flex: 0 1 90%;
       margin: 10px;
       min-width: 40vw;
-      min-height: 25vh;
+      min-height: 27vh;
     }
 }
 </style>

@@ -66,5 +66,9 @@ export default {
       height: 10rem;
       width: 15rem;
     }
+
+    .about {
+      inline-size: 99%;
+    }
   }
 </style>
