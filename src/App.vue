@@ -58,7 +58,7 @@ nav a.router-link-exact-active {
   --nav-link: #fff;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, h5 {
   color: var(--text-primary-color)
 }
 

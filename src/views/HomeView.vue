@@ -3,12 +3,18 @@
     <img alt="HS Logo" src="../assets/logo.png" height="200" width="200">
     <h1>Luis Quezada</h1>
     <p>A Student & Developer in New York City!</p>
-    <div class="about">
-      <h2>About Me:</h2>
+
+    <div class="content">
+      <h2 class="headline">
+        About Me:
+      </h2>
       <p class="about">
-        Hey I'm Luis! I have been programming for the past three years building a multitude of different websites tools for myself and clients. I love to learn and adapt to new technologies and languages. With my experience I have learned a lot of tech & languages which are listed below!
+        Hey! I'm Luis, a High School Student & Developer currently living in New York City. I am originally from the Dominican Republic! I've been programming for the past three years building websites, bots, tools, and more for both myself and clients that I have gathered during this time. New tech and languages always interest me and I'm always open to learning more! I love to hike and adventure outdoors to see what nature has to offer.
       </p>
-      <ul>
+      <h2 class="headline">
+        My Stack:
+      </h2>
+      <ul class="langs">
         <li><a>HTML/CSS</a></li>
         <li><a>JavaScript</a></li>
         <li><a>TypeScript</a></li>
@@ -17,6 +23,10 @@
         <li><a>Git</a></li>
       </ul>
     </div>
+
+    <h3 class="headline">
+      Here's me holding a monkey 😮
+    </h3>
     <img alt="Me" src="../assets/me.jpeg" class="me">
   </div>
 </template>
@@ -31,6 +41,7 @@ export default {
   h1, h2, h3 {
     margin-bottom: 0rem;
   }
+
   p, ul {
     margin-top: 0rem;
   }
@@ -38,21 +49,26 @@ export default {
     text-decoration: underline dotted;
   }
   .about {
-    inline-size: 50vw;
+    inline-size: 32.5vw;
     margin: auto;
   }
 
-  ul {
+  .langs {
     list-style-type: none;
     padding: 0;
   }
-  li {
+  .langs li {
     display: inline-block;
     margin: 0 10px;
   }
-  a {
+
+  .langs li a {
     color: #3fa3eb;
     text-decoration: underline dotted;
+  }
+
+  h3.headline {
+    margin-bottom: 0.5rem
   }
 
   img.me {
