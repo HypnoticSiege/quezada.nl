@@ -147,7 +147,15 @@ export default {
     border-radius: .5rem;
     background-color: var(--background-color-secondary);
     box-shadow: 5px 5px 5px var(--accent-color);
-    min-height: 13.5rem;
+    padding-bottom: 15px;
+    min-height: min-content;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .card:hover {
+    box-shadow: 5px 5px 5px var(--nav-link-active);
+    transform: scale(1.05);
+    transition: all 0.25s ease-in-out;
   }
 
   .card-text {
@@ -155,9 +163,7 @@ export default {
   }
 
   .card-buttons {
-    position:absolute;
     width:100%;
-    bottom:0px;
   }
 
   a.btn {
@@ -181,5 +187,5 @@ export default {
       min-width: 40vw;
       min-height: 27vh;
     }
-}
+  }
 </style>
