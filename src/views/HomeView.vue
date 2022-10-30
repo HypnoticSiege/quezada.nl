@@ -25,7 +25,7 @@
     </div>
 
     <h3 class="headline">
-      Here's me holding a monkey 😮
+      Here's me holding a monkey btw 😮
     </h3>
     <img alt="Me" src="../assets/me.jpeg" class="me">
   </div>
