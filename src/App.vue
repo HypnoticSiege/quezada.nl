@@ -2,7 +2,7 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/projects">Projects</router-link> |
-    <a href="/resume">Resume</a>
+    <a href="/resume.html">Resume</a>
   </nav>
   <theme-button  class="theme-button" />
   <router-view/>
