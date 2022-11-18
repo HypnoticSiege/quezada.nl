@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="HS Logo" src="../assets/logo.png" height="200" width="200">
+    <img alt="Luis Quezada Logo" src="../assets/logo.png" height="200" width="200">
     <h1>Luis Quezada</h1>
     <p>A Student & Developer in New York City!</p>
 
@@ -27,7 +27,7 @@
     <h3 class="headline">
       Here's me holding a monkey btw 😮
     </h3>
-    <img alt="Me" src="../assets/me.jpeg" class="me">
+    <img alt="Luis Quezada holding a monkey." src="../assets/me.jpeg" class="me">
   </div>
 </template>
 
