@@ -72,9 +72,10 @@ export default {
   }
 
   img.me {
-    border-radius: 1rem;
+    border-radius: .25rem;
     height: 20rem;
     width: 30rem;
+    clip-path: polygon(10% 0, 99% 5%, 90% 100%, 0 95%);
   }
 
   @media (max-width: 768px) {
