@@ -15,12 +15,12 @@
         My Stack:
       </h2>
       <ul class="langs">
-        <li><a>HTML/CSS</a></li>
-        <li><a>JavaScript</a></li>
-        <li><a>TypeScript</a></li>
-        <li><a>Vue</a></li>
-        <li><a>MySQL</a></li>
-        <li><a>Git</a></li>
+        <li>HTML/CSS</li>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>Vue</li>
+        <li>MySQL</li>
+        <li>Git</li>
       </ul>
     </div>
 
@@ -62,7 +62,7 @@ export default {
     margin: 0 10px;
   }
 
-  .langs li a {
+  .langs li {
     color: #3fa3eb;
     text-decoration: underline dotted;
   }
