@@ -26,7 +26,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: ftp.quezada.nl
+        server: ftp.hypnoticsiege.net
         username: hypnoti1
         password: ${{ secrets.password }}
         server-dir: /domains/quezada.nl/public_html/
