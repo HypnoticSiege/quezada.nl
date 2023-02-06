@@ -23,11 +23,20 @@ jobs:
         npm install
         npm run build
     
-    - name: 📂 Sync files
+    - name: 📂 Sync files (quezada.nl)
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: ftp.hypnoticsiege.net
         username: hypnoti1
         password: ${{ secrets.password }}
         server-dir: /domains/quezada.nl/public_html/
+        local-dir: ./dist/
+        
+    - name: 📂 Sync files (hypnoticsiege.net)
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      with:
+        server: ftp.hypnoticsiege.net
+        username: hypnoti1
+        password: ${{ secrets.password }}
+        server-dir: /domains/hypnoticsiege.net/public_html/
         local-dir: ./dist/
