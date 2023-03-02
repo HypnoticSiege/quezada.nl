@@ -6,21 +6,27 @@
 
     <div class="content">
       <h2 class="headline">
-        About Me:
+        A little about me:
       </h2>
       <p class="about">
         Hey! I'm Luis, a High School Student & Developer currently living in New York City. I am originally from the Dominican Republic! I've been programming for the past three years building websites, bots, tools, and more for both myself and clients that I have gathered during this time. New tech and languages always interest me and I'm always open to learning more! I love to hike and adventure outdoors to see what nature has to offer.
       </p>
       <h2 class="headline">
-        My Stack:
+        Known Languages & Technologies:
       </h2>
       <ul class="langs">
-        <li>HTML/CSS</li>
-        <li>JavaScript</li>
         <li>TypeScript</li>
-        <li>Vue</li>
+        <li>JavaScript</li>
+        <li>Next JS</li>
+        <li>Vue JS</li>
+        <li>HTML/CSS</li>
+        <li>Lua</li>
         <li>MySQL</li>
+        <li>Prisma</li>
         <li>Git</li>
+        <li>Node</li>
+        <li>CLI</li>
+        <li>CI/CD</li>
       </ul>
     </div>
 
@@ -57,6 +63,8 @@ export default {
   .langs {
     list-style-type: none;
     padding: 0;
+    max-width: 30rem;
+    margin: auto;
   }
   .langs li {
     display: inline-block;
