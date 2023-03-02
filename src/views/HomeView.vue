@@ -27,6 +27,7 @@
     <h3 class="headline">
       Here's me holding a monkey btw 😮
     </h3>
+    
     <img alt="Luis Quezada holding a monkey." src="../assets/me.jpeg" class="me">
   </div>
 </template>
@@ -72,10 +73,18 @@ export default {
   }
 
   img.me {
-    border-radius: .25rem;
+    margin-top: 1rem;
+    border-radius: .75rem;
     height: 20rem;
     width: 30rem;
     clip-path: polygon(10% 0, 99% 5%, 90% 100%, 0 95%);
+    transition: all 0.5s ease;
+  }
+
+  img.me:hover {
+    transform: scale(1.1);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    transition: all 0.5s ease;
   }
 
   @media (max-width: 768px) {
