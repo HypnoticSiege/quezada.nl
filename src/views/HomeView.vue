@@ -55,9 +55,6 @@ export default {
   h1 {
     text-decoration: underline dotted;
   }
-  img {
-    pointer-events: none;
-  }
   .about {
     inline-size: 32.5vw;
     margin: auto;
