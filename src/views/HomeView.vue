@@ -9,7 +9,7 @@
         A little about me:
       </h2>
       <p class="about">
-        Hey! I'm Luis, a High School Student & Developer currently living in New York City. I am originally from the Dominican Republic! I've been programming for the past three years building websites, bots, tools, and more for both myself and clients that I have gathered during this time. New tech and languages always interest me and I'm always open to learning more! I love to hike and adventure outdoors to see what nature has to offer.
+        Hey! I'm Luis, a proficient developer and high school student hailing from New York City, with roots in the Dominican Republic. I possess three years of programming expertise, having built websites, bots, tools, and other digital products for both personal and client-based projects. My passion for technology and programming languages drives me to continually expand my knowledge and skills. Beyond programming, I am an outdoor enthusiast who delights in exploring the world through hiking and other adventures.
       </p>
       <h2 class="headline">
         Known Languages & Technologies:
