@@ -82,6 +82,7 @@ export default {
 
   img.me {
     margin-top: 1rem;
+    margin-bottom: 1rem;
     border-radius: .75rem;
     height: 20rem;
     width: 30rem;
