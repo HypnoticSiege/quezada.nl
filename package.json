@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node server.js",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build && npx tailwindcss -i ./public/input.css -o ./dist/output.css",
     "lint": "vue-cli-service lint",
     "tailwind": "npx tailwindcss -i ./public/input.css -o ./public/output.css --watch",
     "tailwind-build": "npx tailwindcss -i ./public/input.css -o ./publi/output.css",
