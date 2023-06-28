@@ -8,7 +8,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "tailwind": "npx tailwindcss -i ./public/input.css -o ./public/output.css --watch",
-    "tailwind-build": "npx tailwindcss -i ./public/input.css -o ./publi/output.css"
+    "tailwind-build": "npx tailwindcss -i ./public/input.css -o ./publi/output.css",
+    "tailwind-build-ci": "npx tailwindcss -i ./public/input.css -o ./dist/output.css"
   },
   "dependencies": {
     "core-js": "^3.8.3",
