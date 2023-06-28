@@ -21,7 +21,8 @@ jobs:
     - name: 🔨 Build Project
       run: |
         npm install
-        npm run build && npm run build tailwind-build-ci
+        npm run build
+        npm run build tailwind-build-ci
     
     - name: 📂 Sync files (quezada.nl)
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
