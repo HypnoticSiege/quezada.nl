@@ -27,8 +27,8 @@ jobs:
     - name: 📂 Sync files (quezada.nl)
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: ftp.hypnoticsiege.net
-        username: hypnoti1
+        server: ftp.quezada.nl
+        username: shawnengmann
         password: ${{ secrets.password }}
         server-dir: /domains/quezada.nl/public_html/
         local-dir: ./dist/
@@ -36,8 +36,8 @@ jobs:
     - name: 📂 Sync files (hypnoticsiege.net)
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: ftp.hypnoticsiege.net
-        username: hypnoti1
+        server: ftp.quezda.nl
+        username: shawnengmann
         password: ${{ secrets.password }}
         server-dir: /domains/hypnoticsiege.net/public_html/
         local-dir: ./dist/
