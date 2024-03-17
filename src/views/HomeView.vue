@@ -1,38 +1,38 @@
 <template>
   <div class="home">
-    <img alt="Luis Quezada Logo" src="../assets/logo.png" height="200" width="200">
-    <h1>Luis Quezada</h1>
-    <p>A Student & Developer in New York City!</p>
-
-    <div class="content">
-      <h2 class="headline">
-        A little about me:
-      </h2>
-      <p class="about">
-        Hey! I'm Luis, a proficient developer and high school student living in New York City, born in Dominican Republic. I have three years of programming experience, having built websites, bots, tools, and other digital products for both personal and client-based projects. My passion for technology and programming languages drives me to continually expand my knowledge and skills. Beyond programming, I am an outdoor enthusiast who loves exploring the world through hiking and camping.
-      </p>
-      <h2 class="headline">
-        Known Languages & Technologies:
-      </h2>
-      <ul class="langs">
-        <li>TypeScript</li>
-        <li>JavaScript</li>
-        <li>Next JS</li>
-        <li>Vue JS</li>
-        <li>HTML/CSS</li>
-        <li>Lua</li>
-        <li>MySQL</li>
-        <li>Prisma</li>
-        <li>Git</li>
-        <li>Node</li>
-        <li>CLI</li>
-        <li>CI/CD</li>
-      </ul>
+    <div class="title">
+      <div class="logo">
+        <img alt="Luis Quezada Logo" src="../assets/logo.png">
+      </div>
+      <div class="details">
+        <h1>Luis Quezada</h1>
+        <p>Student & Developer in New York City!</p>
+      </div>
     </div>
 
-    <h3 class="headline">
-      Here's me holding a monkey btw 😮
-    </h3>
+    <div class="about">
+      <h2 class="title">
+        About Me
+      </h2>
+      <p class="desc">
+        I'm Luis! <br>
+        A High School student in NYC, and a self-taught developer. I'm passionate about technology and the impact it has on the world. I've been coding for 4 years now, and have never looked back. Every day I'm learning something new, and I'm constantly excited for the future!
+      </p>
+
+      <h2 class="title">
+        Outside of Tech
+      </h2>
+      <p class="desc">
+        I love the outdoors and nature. Hiking, backpacking, and camping is where I find my peace. Just being in the woods, away from the city, is where I feel most at home. I also love going to the gym and working out. It's a great way to clear my mind and stay healthy.
+      </p>
+
+      <h2 class="title">
+        What I'm Working On
+      </h2>
+      <p class="desc">
+        I'm currently working on <a href="https://intellisoftlabs.com" target="_blank">Intellisoft Labs</a>, a Software Company. We want small business owners to have access to affordable, high-quality, and easy-to-use software that also helps them grow their business.
+      </p>
+    </div>
     
     <img alt="Luis Quezada holding a monkey." src="../assets/me.jpeg" class="me">
   </div>
@@ -45,39 +45,51 @@ export default {
 </script>
 
 <style scoped>
-  h1, h2, h3 {
-    margin-bottom: 0rem;
+  .home {
+    margin-top: 2rem;
+    padding: 1rem;
   }
 
-  p, ul {
-    margin-top: 0rem;
+  h1, h2, p {
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
   }
-  h1 {
+
+  .title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .title h1 {
+    font-size: 3rem;
     text-decoration: underline dotted;
   }
+
+  .title p {
+    font-size: 1.5rem;
+  }
+
+  .title img {
+    height: 7rem;
+    border-radius: 50%;
+  }
+
   .about {
-    inline-size: 32.5vw;
-    margin: auto;
+    inline-size: 50%;
   }
 
-  .langs {
-    list-style-type: none;
-    padding: 0;
-    max-width: 30rem;
-    margin: auto;
-  }
-  .langs li {
-    display: inline-block;
-    margin: 0 10px;
+  .about .title {
+    font-size: 2rem;
   }
 
-  .langs li {
+  .about .desc {
+    font-size: 1.15rem;
+    margin-bottom: 1rem;
+  }
+
+  .about .desc a {
     color: #3fa3eb;
-    text-decoration: underline dotted;
-  }
-
-  h3.headline {
-    margin-bottom: 0.5rem
   }
 
   img.me {
@@ -85,13 +97,11 @@ export default {
     margin-bottom: 1rem;
     border-radius: .75rem;
     height: 20rem;
-    width: 30rem;
     clip-path: polygon(10% 0, 99% 5%, 90% 100%, 0 95%);
     transition: all 0.5s ease;
   }
 
   img.me:hover {
-    transform: scale(1.1);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     transition: all 0.5s ease;
   }
