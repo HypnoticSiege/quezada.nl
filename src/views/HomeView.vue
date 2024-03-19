@@ -108,7 +108,7 @@ export default {
 
   @media (max-width: 768px) {
     img.me {
-      height: 15rem;
+      height: 10rem;
     }
   }
 </style>
