@@ -108,8 +108,7 @@ export default {
 
   @media (max-width: 768px) {
     img.me {
-      height: 10rem;
-      width: 15rem;
+      height: 15rem;
     }
 
     .about {
