@@ -110,9 +110,5 @@ export default {
     img.me {
       height: 15rem;
     }
-
-    .about {
-      inline-size: 99%;
-    }
   }
 </style>
